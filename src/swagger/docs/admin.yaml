@@ -1,0 +1,22 @@
+/admin:
+  post:
+    tags: [Admin Login]
+    requestBody:
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Login"
+      required: true
+    responses:
+      "200":
+        description: Admin login
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Response"
+      "400":
+        description: error message
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ErrorResponse"

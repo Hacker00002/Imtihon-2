@@ -1,0 +1,184 @@
+components:
+  schemas:
+    PostResponseNews:
+      type: object
+      properties:
+        status:
+          type: string
+        message:
+          type: string
+        data:
+          type: array
+        items:
+          type: object
+          properties:
+            new_id:
+              type: integer
+            image:
+              type: string
+            meating_date:
+              type: string
+            meating_time:
+              type: string
+            set_the_direction:
+              type: string
+            internal_route:
+              type: string
+            enter_link:
+              type: string
+            event_type:
+              type: string
+            legal_name:
+              type: integer
+            name:
+              type: integer
+            profession:
+              type: string
+            phone_number:
+              type: string
+            additional_telephone_number:
+              type: string
+            description:
+              type: string
+            subject_text:
+              type: string
+            created_at:
+              type: string
+
+    CreatePost:
+      type: object
+      properties:
+        new:
+          type: integer
+        image:
+          type: string
+        meating_date:
+          type: string
+        meating_time:
+          type: string
+        set_the_direction:
+          type: string
+        internal_route:
+          type: string
+        enter_link:
+          type: string
+        event_type:
+          type: string
+        legal_name:
+          type: integer
+        name:
+          type: integer
+        profession:
+          type: string
+        phone_number:
+          type: string
+        additional_telephone_number:
+          type: string
+        description:
+          type: string
+        subject_text:
+          type: string
+        created_at:
+          type: string
+
+    Single:
+      type: object
+      properties:
+        image:
+          type: string
+        meating_date:
+          type: string
+        meating_time:
+          type: string
+        set_the_direction:
+          type: string
+        internal_route:
+          type: string
+        enter_link:
+          type: string
+        event_type:
+          type: string
+        legal_name:
+          type: integer
+        name:
+          type: integer
+        profession:
+          type: string
+        phone_number:
+          type: string
+        additional_telephone_number:
+          type: string
+        description:
+          type: string
+        subject_text:
+          type: string
+        created_at:
+          type: string
+
+    Name:
+      type: object
+      properties:
+        image:
+          type: string
+        meating_date:
+          type: string
+        meating_time:
+          type: string
+        set_the_direction:
+          type: string
+        internal_route:
+          type: string
+        enter_link:
+          type: string
+        event_type:
+          type: string
+        legal_name:
+          type: integer
+        name:
+          type: integer
+        profession:
+          type: string
+        phone_number:
+          type: string
+        additional_telephone_number:
+          type: string
+        description:
+          type: string
+        subject_text:
+          type: string
+        created_at:
+          type: string
+
+    Event:
+      type: object
+      properties:
+        image:
+          type: string
+        meating_date:
+          type: string
+        meating_time:
+          type: string
+        set_the_direction:
+          type: string
+        internal_route:
+          type: string
+        enter_link:
+          type: string
+        event_type:
+          type: string
+        legal_name:
+          type: integer
+        name:
+          type: integer
+        profession:
+          type: string
+        phone_number:
+          type: string
+        additional_telephone_number:
+          type: string
+        description:
+          type: string
+        subject_text:
+          type: string
+        created_at:
+          type: string
